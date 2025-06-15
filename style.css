@@ -1,0 +1,198 @@
+* {
+  /* outline: 2px solid red; */
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+.header a:link,
+a:visited {
+  color: #e5e7eb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header a:link:active,
+a:visited:active {
+  color: #e5e7eb;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin: 1rem auto;
+  gap: 0.5rem;
+  width: 1225px;
+}
+
+h2 {
+  font-weight: 900;
+  margin-right: auto;
+}
+
+.header img {
+  width: 45px;
+}
+
+.header .header-link {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.hero-second,
+.header-link {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero-bg {
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+  margin-bottom: 2rem;
+  width: 1225px;
+}
+
+button {
+  background-color: #3882f6;
+  border: #3882f6;
+  color: white;
+  cursor: pointer;
+  padding: 8px 32px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition-duration: 0.4s;
+}
+
+.hero-text button {
+  margin-top: 0.5rem;
+}
+
+button:hover,
+#modal button:hover {
+  background-color: white;
+  color: #3882f6;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.information-section h1 {
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  padding-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.information-section {
+  background-color: white;
+  color: #1f2937;
+  height: 450px;
+}
+
+.info img {
+  width: 125px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 150px;
+  gap: 0.5rem;
+}
+
+#quote-section {
+  color: #1f2937;
+  background-color: #e5e7eb;
+  height: 500px;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  max-width: 800px;
+  margin-top: 1rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.author {
+  text-align: end;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#modal {
+  background-color: white;
+  color: white;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pop {
+  background-color: #3882f6;
+  height: 150px;
+  width: 1225px;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#modal button {
+  background-color: #3882f6;
+  border: 2px solid white;
+}
+
+button:hover a:link,
+button:hover a:visited {
+  color: #3882f6;
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+button a:link,
+button a:visited {
+  color: white;
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+.footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
