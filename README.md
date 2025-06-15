@@ -1,4 +1,4 @@
-# 🧠 The Meaning Lab – A Philosophy Landing Page
+# The Meaning Lab – A Philosophy Landing Page
 
 The Meaning Lab is a static landing page centered around the timeless ideas of philosophy, created as my first web development project. Built with only HTML and CSS, the page offers a structured and thoughtful presentation of philosophical themes, thinkers, and inspiration.
 From bold headlines and an embedded video, to key philosophical perspectives and motivational quotes, the design aims to spark curiosity and self-reflection — all while helping me learn the basics of front-end development.
