@@ -196,3 +196,134 @@ button a:visited {
   align-items: center;
   margin-bottom: 0.5rem;
 }
+
+@media screen and (max-width: 425px) {
+  body {
+    max-width: 420px;
+  }
+
+  .header {
+    font-size: 10px;
+    gap: 1px;
+    width: 400px;
+  }
+
+  .header img {
+    width: 35px;
+  }
+
+  .header .header-link {
+    gap: 1rem;
+  }
+
+  .hero-second,
+  .header-link {
+    font-size: 10px;
+    margin-right: 1rem;
+  }
+
+  .hero-main {
+    font-size: 2rem;
+  }
+
+  .hero-bg {
+    height: 550px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    width: 385px;
+  }
+
+  .vid {
+    align-self: flex-start;
+  }
+
+  iframe {
+    width: 370px;
+    height: 250px;
+
+  }
+
+  .hero-text button {
+    padding: 8px 160px;
+  }
+
+  .information-section h1 {
+    font-size: 24px;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .information-section {
+    height: 700px;
+  }
+
+  .info img {
+    width: 100px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+    width: 100%;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 150px;
+  }
+
+  #quote-section {
+    height: 400px;
+    font-size: 1.5rem;
+  }
+
+  .quote {
+    max-width: 350px;
+    margin-top: 0rem;
+  }
+
+  .pop {
+    height: 155px;
+    width: 370px;
+    border-radius: 0.5rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px 1rem;
+    font-size: 14px;
+  }
+
+  #modal button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    padding: 8px 142px;
+  }
+
+  button:hover a:link,
+  button:hover a:visited {
+    color: #3882f6;
+    transition-duration: 0.4s;
+    text-decoration: none;
+  }
+
+  button a:link,
+  button a:visited {
+    color: white;
+    transition-duration: 0.4s;
+    text-decoration: none;
+  }
+
+  .footer {
+    font-size: 10px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+}
