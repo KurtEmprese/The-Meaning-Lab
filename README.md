@@ -5,7 +5,8 @@ From bold headlines and an embedded video, to key philosophical perspectives and
 
 ## ✨ Features
 
-- Clean design using pure HTML & CSS
+- Desktop-first design
+- Responsive layout at 475px width (partially mobile-friendly)
 - A hero section with a headline, description, and sign-up CTA
 - Embedded YouTube video on philosophical ideas
 - Overview of four major philosophical schools: Absurdism, Nihilism, Stoicism, and Existentialism
@@ -20,7 +21,6 @@ This project combines my passion for philosophy with my goal of learning web dev
 
 - HTML
 - CSS
-- Not responsive (yet!)
 
 ## 👤 Author
 
